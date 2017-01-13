@@ -1,21 +1,32 @@
-body {
- background: #999;
- font-family: arial;
-}
- h1 {
-  color: #333;
- }
- p {
-  background: #666;
-  padding: 5px;
+
+ body {
+  margin: 0;
  }
 
-.secondary {
-  background: none;
-  color: #555;
+header {
+  background: #999;
+color: white;
+padding: 5px 15px 0 15px;
 }
 
-#special {
-  background: red;
-  color: #555;
+header h1 {
+margin: 0;
+display: inline;
+}
+
+nav ul{
+margin: 0;
+display: inline;
+}
+
+nav ul li{
+  background: black;
+  color: white;
+  display: inline-block;
+  list-style-type: none;
+  padding: 5px 15px;
+}
+
+nav ul li a {
+  color: white;
 }
